@@ -1,8 +1,34 @@
-.row {
-  display: flex;
-  padding: 20px;
-  margin: 20px;
+/* Add styling to the card elements */
+.car-card {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px; /* Increase the margin to add space between cards */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
 }
-.card {
-  margin: 10px;
+
+.car-card h2 {
+  font-size: 18px;
+}
+
+.car-card img {
+  width: 200px;
+  display: block;
+  margin: 0 auto; /* Center the image horizontally */
+}
+
+.car-card p {
+  line-height: 0.9;
+  padding: 0px;
+  margin-top: 7px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.car-card img {
+  width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
