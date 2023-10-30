@@ -1,34 +1,42 @@
-/* Add styling to the card elements */
-.car-card {
-  border: 1px solid #ddd;
-  border-radius: 5px;
+body {
+  margin: auto;
+  width: 100vw;
+  align-content: center;
+}
+
+.container {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+#cargrid {
+  margin-left: 10px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #fcd0a1;
+
+  border-radius: 10px;
   padding: 10px;
-  margin: 10px; /* Increase the margin to add space between cards */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  background-color: #fff;
+  padding-left: 10px;
+  margin-bottom: 20px;
 }
-
-.car-card h2 {
-  font-size: 18px;
+.car-card {
+  border: 3px solid white;
+  width: 30%;
+  height: auto;
+  text-align: left;
+  padding: 15px;
+  margin: 15px;
+  background-color: #b1b695;
+  border-radius: 10px;
 }
-
-.car-card img {
-  width: 200px;
-  display: block;
-  margin: 0 auto; /* Center the image horizontally */
-}
-
 .car-card p {
-  line-height: 0.9;
-  padding: 0px;
-  margin-top: 7px;
-  margin-bottom: 10px;
-  font-weight: 600;
+  font-weight: 400;
 }
-
-.car-card img {
-  width: 200px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+.navbar {
+  background-color: #a690a4;
+}
+.navbar-brand {
+  color: white;
+  font-weight: bold;
 }
